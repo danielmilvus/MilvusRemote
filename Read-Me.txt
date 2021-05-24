@@ -1,0 +1,12 @@
+1. Clone MilvusRemote
+2. cd MilvusRemote
+3. Make guaca-install.sh exec. (sudo chmod +x guaca-install.sh)
+4. To run the script: (REPEATER: If you don´t want to install it, use --repeater false)
+	./guac-install.sh --mysqlpwd password --guacpwd password
+5. Test guac server:
+	http://Server:8080/guacamole
+	User: guacadmin 
+	Pwd:  guacadmin
+6. Test repeater:
+	run: sudo lsof -i -P -n
+	Check if the uvncrepeater is running and listening ports 5901 and 5500.
