@@ -691,7 +691,7 @@ fi
 
 
 #Make Install UltraVNC Repeater
-if [ "${installRepeater}" = true]; then
+if [ "${installRepeater}" = true ]; then
 	echo -e "$(BLUE)Installing UltraVNC Repeater...${NC}"
 	tar -xvf uvncrep015-ws.tar.gz
 	cd uvncrep015-ws
