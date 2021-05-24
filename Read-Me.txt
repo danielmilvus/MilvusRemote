@@ -2,7 +2,7 @@
 2. cd MilvusRemote
 3. Make guaca-install.sh exec. (sudo chmod +x guaca-install.sh)
 4. To run the script: (REPEATER: If you don´t want to install it, use --repeater false)
-	./guac-install.sh --mysqlpwd password --guacpwd password
+	./guaca-install.sh --mysqlpwd password --guacpwd password
 5. Test guac server:
 	http://Server:8080/guacamole
 	User: guacadmin 
