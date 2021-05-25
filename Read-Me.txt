@@ -1,4 +1,4 @@
-1. Clone MilvusRemote
+1. Clone MilvusRemote 'https://github.com/danielmilvus/MilvusRemote'
 2. cd MilvusRemote
 3. Make guaca-install.sh exec. (sudo chmod +x guaca-install.sh)
 4. To run the script: (REPEATER: If you don´t want to install it, use --repeater false)
